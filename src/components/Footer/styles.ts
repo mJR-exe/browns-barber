@@ -3,13 +3,17 @@ import { Link } from "react-router-dom";
 
 export const FooterSection = styled("footer")`
   background: rgb(241, 242, 243);
-  padding: 2.5rem 0;
+  padding: 2.5rem 10rem;
+
+  @media screen and (max-width: 1024px) {
+    padding: 1rem 0;
+  }
 `;
 
 export const Title = styled("h4")`
   font-size: 22px;
   text-transform: capitalize;
-  color: #18216d;
+  color: #222;
 
   @media screen and (max-width: 414px) {
     padding: 1.5rem 0;
@@ -30,12 +34,17 @@ export const NavLink = styled(Link)`
 `;
 
 export const Extra = styled("section")`
+  padding: 0 10rem;
   background: rgb(241, 242, 243);
   position: relative;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 2rem;
+
+  @media screen and (max-width: 1024px) {
+    padding: 1rem 0;
+  }
 `;
 
 export const LogoContainer = styled("div")`
@@ -44,7 +53,7 @@ export const LogoContainer = styled("div")`
 `;
 
 export const Para = styled("div")`
-  color: #18216d;
+  color: #222;
   font-size: 14px;
   width: 70%;
 `;
@@ -62,23 +71,23 @@ export const Large = styled(Link)<any>`
   max-width: max-content;
 
   &:hover {
-    color: rgb(255, 130, 92);
+    color: #4B1774;
     text-underline-position: under;
-    text-decoration: rgb(255, 130, 92) wavy underline;
+    text-decoration: #4B1774 wavy underline;
   }
 `;
 
 export const Chat = styled("p")`
-  color: #18216d;
+  color: #222;
   max-width: fit-content;
-  border-bottom: 1px solid #18216d;
+  border-bottom: 1px solid #222;
   cursor: pointer;
   margin-top: 1rem;
   transition: all 0.3s ease-in-out;
 
   &:hover {
-    border-bottom: 1px solid rgb(255, 130, 92);
-    color: rgb(255, 130, 92);
+    border-bottom: 1px solid #4B1774;
+    color: #4B1774;
   }
 `;
 
@@ -121,7 +130,7 @@ export const FooterContainer = styled("div")`
     height: 25px;
 
     &:hover {
-      fill: rgb(255, 130, 92);
+      fill: #4B1774;
     }
   }
 `;
@@ -129,7 +138,7 @@ export const FooterContainer = styled("div")`
 export const Language = styled("h4")`
   font-size: 22px;
   text-transform: capitalize;
-  color: #18216d;
+  color: #222;
 
   @media screen and (max-width: 414px) {
     padding: 1.5rem 0;
@@ -139,7 +148,7 @@ export const Language = styled("h4")`
 export const Label = styled("label")`
   font-size: 22px;
   text-transform: capitalize;
-  color: #18216d;
+  color: #222;
   display: block;
   margin-bottom: 2rem;
   font-family: "Motiva Sans Bold", serif;

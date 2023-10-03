@@ -50,59 +50,23 @@ const Footer = ({ t }: any) => {
       <FooterSection>
         <Container>
           <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
-              <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
-              <Para>
-                {t(`Do you have any question? Feel free to reach out.`)}
-              </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
-                <Chat>{t(`Let's Chat`)}</Chat>
-              </a>
-            </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Policy")}</Title>
-              <Large to="/" left="true">
-                {t("Application Security")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Software Principles")}
-              </Large>
-            </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
-              <Empty />
-              <Large left="true" to="/">
-                {t("Support Center")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Customer Support")}
-              </Large>
-            </Col>
-          </Row>
-          <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
-              <Empty />
               <Language>{t("Address")}</Language>
               <Para>Rancho Santa Margarita</Para>
               <Para>2131 Elk Street</Para>
               <Para>California</Para>
             </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
+            <Col lg={6} md={6} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
               <Large left="true" to="/">
                 {t("About")}
               </Large>
-              <Large left="true" to="/">
-                {t("Blog")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Press")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Careers & Culture")}
-              </Large>
             </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
+            <Col lg={8} md={8} sm={12} xs={12}>
+              <Title>{t("Location")}</Title>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6922.9309561748005!2d-0.1473093256503567!3d51.50904736807145!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760529f23cd995%3A0x972bcafbef3479a3!2sThe%20Spa%20at%20Brown&#39;s%20Hotel!5e0!3m2!1spt-BR!2sbr!4v1696311402552!5m2!1spt-BR!2sbr" width="100%" height="350" loading="lazy" style={{ border: 0 }}></iframe>
+            </Col>
+            {/* <Col lg={6} md={6} sm={12} xs={12}>
               <Label htmlFor="select-lang">{t("Language")}</Label>
               <LanguageSwitchContainer>
                 <LanguageSwitch onClick={() => handleChange("en")}>
@@ -122,7 +86,7 @@ const Footer = ({ t }: any) => {
                   />
                 </LanguageSwitch>
               </LanguageSwitchContainer>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </FooterSection>
@@ -145,27 +109,21 @@ const Footer = ({ t }: any) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
+                href=""
                 src="github.svg"
               />
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
+                href=""
                 src="twitter.svg"
               />
               <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
+                href=""
                 src="linkedin.svg"
               />
               <SocialLink
-                href="https://medium.com/@lashakakabadze/"
+                href=""
                 src="medium.svg"
               />
-              <a href="https://www.buymeacoffee.com/adrinlol">
-                <img
-                  src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=adrinlol&button_colour=FF5F5F&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"
-                  alt="Buy me a pizza"
-                />
-              </a>
             </FooterContainer>
           </Row>
         </Container>

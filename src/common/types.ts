@@ -11,6 +11,12 @@ export interface ButtonProps {
   onClick?: () => void;
 }
 
+export interface ImageProps {
+  src: string;
+  width: string;
+  height: string;
+  alt: string;
+}
 export interface SvgIconProps {
   src: string;
   width: string;
