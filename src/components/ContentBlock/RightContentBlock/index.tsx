@@ -17,6 +17,7 @@ const RightBlock = ({
   button,
   image,
   altImage,
+  bckColor,
   t,
   id,
 }: ContentBlockProps) => {
@@ -27,13 +28,18 @@ const RightBlock = ({
     });
   };
   return (
-    <RightBlockContainer>
+    <RightBlockContainer style={
+      bckColor ?
+        ({ backgroundColor: bckColor, display: "flex"})
+        :
+        ({ backgroundColor: "#fff" })
+    }>
       <Fade direction="right">
         <Row justify="space-between" align="middle" id={id}>
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
-              <h6>{t(title)}</h6>
-              <Content>{t(content)}</Content>
+              <h6 style={{ color: bckColor ? "#F5EEDC" : "#222" }}>{t(title)}</h6>
+              <Content style={{ color: bckColor ? "#F5EEDC" : "#222" }}>{t(content)}</Content>
               <ButtonWrapper>
                 {typeof button === "object" &&
                   button.map((item: any, id: number) => {

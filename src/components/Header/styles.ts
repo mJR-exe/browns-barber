@@ -101,8 +101,8 @@ export const Span = styled("span")`
   &:hover,
   &:active,
   &:focus {
-    color: #4B1774;
+    color: #000;
     text-underline-position: under;
-    text-decoration: #4B1774 wavy underline;
+    text-decoration: #000 wavy underline;
   }
 `;

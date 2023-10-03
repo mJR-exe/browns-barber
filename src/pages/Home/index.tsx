@@ -17,7 +17,7 @@ const Home = () => {
       <ScrollToTop />
       <ContentBlock
         image="home"
-        altImage=""
+        altImage="Image home."
         type="right"
         title={IntroContent.title}
         content={IntroContent.text}
@@ -31,7 +31,7 @@ const Home = () => {
       />
       <ContentBlock
         image="ambience"
-        altImage=""
+        altImage="Image ambience."
         type="left"
         title={AboutContent.title}
         content={AboutContent.text}
@@ -39,9 +39,10 @@ const Home = () => {
         id="about"
       />
       <ContentBlock
-        image=""
-        altImage=""
-        type="left"
+        image="about"
+        altImage="Image about."
+        bckColor="#000"
+        type="right"
         title={ProductContent.title}
         content={ProductContent.text}
         id="product"

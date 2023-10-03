@@ -52,9 +52,9 @@ const Footer = ({ t }: any) => {
           <Row justify="space-between">
             <Col lg={6} md={6} sm={12} xs={12}>
               <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
+              <Para>Sonder Downtown Towers 3</Para>
+              <Para>1st Floot</Para>
+              <Para>Dubai - Emirados Árabes Unidos</Para>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
@@ -64,7 +64,7 @@ const Footer = ({ t }: any) => {
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Location")}</Title>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6922.9309561748005!2d-0.1473093256503567!3d51.50904736807145!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760529f23cd995%3A0x972bcafbef3479a3!2sThe%20Spa%20at%20Brown&#39;s%20Hotel!5e0!3m2!1spt-BR!2sbr!4v1696311402552!5m2!1spt-BR!2sbr" width="100%" height="350" loading="lazy" style={{ border: 0 }}></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37997.204261505256!2d55.227501562034405!3d25.204142471434693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d4e816cc425%3A0xb274ac1b1ab07800!2sBrowns%20Spa%20at%20Sonder%20Downtown%20Towers!5e0!3m2!1spt-BR!2sbr!4v1696345289143!5m2!1spt-BR!2sbr" width="100%" height="350" loading="lazy" style={{ border: 0 }}></iframe>
             </Col>
             {/* <Col lg={6} md={6} sm={12} xs={12}>
               <Label htmlFor="select-lang">{t("Language")}</Label>
@@ -109,20 +109,20 @@ const Footer = ({ t }: any) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href=""
-                src="github.svg"
+                href="https://www.instagram.com/browns_barbershop_/"
+                src="instagram.svg"
               />
               <SocialLink
-                href=""
-                src="twitter.svg"
+                href="https://www.instagram.com/browns_barbershop_/"
+                src="instagram.svg"
               />
               <SocialLink
-                href=""
-                src="linkedin.svg"
+                href="https://www.instagram.com/browns_barbershop_/"
+                src="instagram.svg"
               />
               <SocialLink
-                href=""
-                src="medium.svg"
+                href="https://www.instagram.com/browns_barbershop_/"
+                src="instagram.svg"
               />
             </FooterContainer>
           </Row>

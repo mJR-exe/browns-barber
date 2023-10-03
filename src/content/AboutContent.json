@@ -3,13 +3,13 @@
   "text": "Step into our meticulously designed barbershop, where every detail exudes luxury and comfort.",
   "section": [
     {
-      "title": "Lorem ipsum",
-      "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit",
+      "title": "Experience",
+      "content": "At our barbershop, luxury is not just a word; it's an experience.",
       "icon": "barber-chair.svg"
     },
     {
-      "title": "Lorem ipsum",
-      "content": "Lorem ipsum dolor, sit amet consectetur adipisicing eli",
+      "title": "Products",
+      "content": "We use only the finest grooming products and techniques.",
       "icon": "barber-svgrepo.svg"
     }
   ]

@@ -29,7 +29,7 @@ export const NavLink = styled(Link)`
   &:hover,
   &:active,
   &:focus {
-    color: #15418e;
+    color: #222;
   }
 `;
 
@@ -60,7 +60,7 @@ export const Para = styled("div")`
 
 export const Large = styled(Link)<any>`
   font-size: 16px;
-  color: #000;
+  color: #222;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-transform: capitalize;
@@ -71,9 +71,9 @@ export const Large = styled(Link)<any>`
   max-width: max-content;
 
   &:hover {
-    color: #4B1774;
+    color: #000;
     text-underline-position: under;
-    text-decoration: #4B1774 wavy underline;
+    text-decoration: #000 wavy underline;
   }
 `;
 
@@ -86,8 +86,8 @@ export const Chat = styled("p")`
   transition: all 0.3s ease-in-out;
 
   &:hover {
-    border-bottom: 1px solid #4B1774;
-    color: #4B1774;
+    border-bottom: 1px solid #000;
+    color: #000;
   }
 `;
 
@@ -130,7 +130,7 @@ export const FooterContainer = styled("div")`
     height: 25px;
 
     &:hover {
-      fill: #4B1774;
+      fill: #000;
     }
   }
 `;
